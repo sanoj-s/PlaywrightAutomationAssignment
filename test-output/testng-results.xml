@@ -1,25 +1,49 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="2" total="3" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-08-21T17:23:47 IST" name="Suite" finished-at="2024-08-21T17:24:01 IST" duration-ms="13911">
+  <suite started-at="2024-08-21T18:39:35 IST" name="Suite" finished-at="2024-08-21T18:40:30 IST" duration-ms="55285">
     <groups>
     </groups>
-    <test started-at="2024-08-21T17:23:47 IST" name="Test" finished-at="2024-08-21T17:24:01 IST" duration-ms="13911">
-      <class name="com.assigments.LambdaTestAutomation">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.assigments.LambdaTestAutomation@3514a4c0]" started-at="2024-08-21T17:23:47 IST" name="setUp" finished-at="2024-08-21T17:23:58 IST" duration-ms="10974" status="PASS">
+    <test started-at="2024-08-21T18:39:35 IST" name="Test" finished-at="2024-08-21T18:40:30 IST" duration-ms="55285">
+      <class name="com.assigments.tests.LambdaTestAutomation">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.assigments.tests.LambdaTestAutomation@212b5695]" started-at="2024-08-21T18:39:35 IST" name="setUp" finished-at="2024-08-21T18:39:52 IST" duration-ms="16744" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="tc_TestScenario003()[pri:0, instance:com.assigments.LambdaTestAutomation@3514a4c0]" started-at="2024-08-21T17:23:58 IST" name="tc_TestScenario003" finished-at="2024-08-21T17:24:01 IST" duration-ms="2905" status="PASS">
+        <test-method signature="tc_TestScenario001()[pri:0, instance:com.assigments.tests.LambdaTestAutomation@212b5695]" started-at="2024-08-21T18:39:52 IST" name="tc_TestScenario001" finished-at="2024-08-21T18:39:54 IST" duration-ms="2420" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- tc_TestScenario003 -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.assigments.LambdaTestAutomation@3514a4c0]" started-at="2024-08-21T17:24:01 IST" name="tearDown" finished-at="2024-08-21T17:24:01 IST" duration-ms="3" status="PASS">
+        </test-method> <!-- tc_TestScenario001 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.assigments.tests.LambdaTestAutomation@212b5695]" started-at="2024-08-21T18:39:54 IST" name="tearDown" finished-at="2024-08-21T18:39:54 IST" duration-ms="8" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- com.assigments.LambdaTestAutomation -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.assigments.tests.LambdaTestAutomation@212b5695]" started-at="2024-08-21T18:39:54 IST" name="setUp" finished-at="2024-08-21T18:40:12 IST" duration-ms="18116" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="tc_TestScenario002()[pri:0, instance:com.assigments.tests.LambdaTestAutomation@212b5695]" started-at="2024-08-21T18:40:12 IST" name="tc_TestScenario002" finished-at="2024-08-21T18:40:14 IST" duration-ms="1865" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc_TestScenario002 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.assigments.tests.LambdaTestAutomation@212b5695]" started-at="2024-08-21T18:40:14 IST" name="tearDown" finished-at="2024-08-21T18:40:14 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.assigments.tests.LambdaTestAutomation@212b5695]" started-at="2024-08-21T18:40:14 IST" name="setUp" finished-at="2024-08-21T18:40:27 IST" duration-ms="12851" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="tc_TestScenario003()[pri:0, instance:com.assigments.tests.LambdaTestAutomation@212b5695]" started-at="2024-08-21T18:40:27 IST" name="tc_TestScenario003" finished-at="2024-08-21T18:40:30 IST" duration-ms="3205" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc_TestScenario003 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.assigments.tests.LambdaTestAutomation@212b5695]" started-at="2024-08-21T18:40:30 IST" name="tearDown" finished-at="2024-08-21T18:40:30 IST" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.assigments.tests.LambdaTestAutomation -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->
 </testng-results>

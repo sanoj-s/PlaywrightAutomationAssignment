@@ -36,7 +36,7 @@ public class LambdaTestAutomation extends SessionManager {
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
-	}// Test ID: LFQ8N-FBQTB-TALLT-Z9IRG
+	}// Test ID: YXQKH-7OBPB-TBHCQ-WIO6K
 
 	@Test(enabled = true)
 	public void tc_TestScenario002() {
@@ -55,7 +55,7 @@ public class LambdaTestAutomation extends SessionManager {
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
-	}// Test ID: KEKDM-L5QIU-H1PSH-YAHE1
+	}// Test ID: QBW3S-DNCXO-VSZK9-LTAG2
 
 	@Test(enabled = true)
 	public void tc_TestScenario003() {
@@ -84,7 +84,7 @@ public class LambdaTestAutomation extends SessionManager {
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
-	}// Test ID: EWWGJ-R203H-MZJOU-XGCGX
+	}// Test ID: CEUGV-ZGM3S-ZLRJS-RZ9S6
 
 	@AfterMethod()
 	public void tearDown() {
