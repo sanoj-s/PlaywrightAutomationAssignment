@@ -3,5 +3,5 @@
 # and commit this file to your remote git repository to share the goodness with others.
 
 tasks:
-  - init: npx --yes playwright install; sudo npx --yes playwright install-deps
+  - init: mvn exec:java -e -D exec.mainClass=com.microsoft.playwright.CLI -D exec.args="install"
     command: mvn clean test
