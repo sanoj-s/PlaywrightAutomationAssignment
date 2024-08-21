@@ -19,7 +19,7 @@ public class LambdaTestAutomation extends SessionManager {
 		page = startSession();
 	}
 
-	@Test(enabled = false)
+	@Test(enabled = true)
 	public void tc_TestScenario001() {
 		try {
 			page.navigate("https://www.lambdatest.com/selenium-playground");
@@ -38,7 +38,7 @@ public class LambdaTestAutomation extends SessionManager {
 		}
 	}// Test ID: LFQ8N-FBQTB-TALLT-Z9IRG
 
-	@Test(enabled = false)
+	@Test(enabled = true)
 	public void tc_TestScenario002() {
 		try {
 			page.navigate("https://www.lambdatest.com/selenium-playground");

@@ -19,17 +19,18 @@ public class SessionManager {
 	 * @return
 	 */
 	public Page startSession() {
-		try  {
-			  playwright = Playwright.create();
+		try {
+			playwright = Playwright.create();
 			JsonObject capabilities = new JsonObject();
 			JsonObject ltOptions = new JsonObject();
 			capabilities.addProperty("browsername", "pw-firefox");
 			capabilities.addProperty("browserVersion", "latest");
 			ltOptions.addProperty("platform", "Windows 10");
-//			ltOptions.addProperty("name", "Playwright Test on " + "Chromium");
 			ltOptions.addProperty("build", "LambdaTestAutomation");
 			ltOptions.addProperty("user", lambdaTestUserName);
 			ltOptions.addProperty("accessKey", lambdaTestAuthkey);
+			ltOptions.addProperty("network", true);
+			ltOptions.addProperty("video", true);
 			capabilities.add("LT:Options", ltOptions);
 			String cdpUrl = "wss://cdp.lambdatest.com/playwright?capabilities=" + capabilities;
 			browser = playwright.chromium().connect(cdpUrl);
