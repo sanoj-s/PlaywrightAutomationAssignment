@@ -3,5 +3,7 @@
 # and commit this file to your remote git repository to share the goodness with others.
 
 tasks:
-  - init: mvn exec:java -e -D exec.mainClass=com.microsoft.playwright.CLI -D exec.args="install webkit"; npx --yes playwright install-deps
+  - init: |
+      mvn exec:java -e -D exec.mainClass=com.microsoft.playwright.CLI -D exec.args="install webkit" &&
+      npx --yes playwright install --with-deps
     command: mvn clean test
